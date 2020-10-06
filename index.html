@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Bootstrap core CSS -->
   <link href="./Material Design Bootstrap_files/bootstrap.min.css" rel="stylesheet">
+  <link href="./Material Design Bootstrap_files/style.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="./Material Design Bootstrap_files/mdb.min.css" rel="stylesheet">
   <style type="text/css">
@@ -23,14 +24,11 @@
 
 <body class="medical-lp">
 
-  <!--Navigation & Intro-->
   <header>
-
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-
-      <div class="container">
-		<img src="./Material Design Bootstrap_files/logo.png" style="width: 20%"> 
+    <div class="container">
+		  <img src="./Material Design Bootstrap_files/logo.png" style="width: 20%"> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -67,10 +65,9 @@
             </li>
           </ul>
         </div>
-      </div>
+    </div>
     </nav>
     <!--/Navbar-->
-
     <!--Intro Section-->
     <section id="home" class="view" style="background-image: url('./Material Design Bootstrap_files/37.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
       <div class="mask">
@@ -91,147 +88,127 @@
         </div>
       </div>
     </section>
-
-    <!--Modal Info-->
-    <div class="modal fade modal-ext" id="modal-info" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <!--Content-->
-        <div class="modal-content">
-          <!--Header-->
-          <div class="modal-header text-center">
-            <h4 class="modal-title w-100 py-3" id="myModalLabel">Information about clinic</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">×</span>
-            </button>
-          </div>
-          <!--Body-->
-          <div class="modal-body text-center">
-
-            <!--Title-->
-            <h5 class="title mb-3 font-weight-bold">Opening hours:</h5>
-
-            <!--Opening hours table-->
-            <table class="table">
-              <tbody>
-                <tr>
-                  <td>Monday - Friday:</td>
-                  <td>8 AM - 9 PM</td>
-                </tr>
-                <tr>
-                  <td>Saturday:</td>
-                  <td>9 AM - 6 PM</td>
-                </tr>
-                <tr>
-                  <td>Sunday:</td>
-                  <td>11 AM - 6 PM</td>
-                </tr>
-              </tbody>
-            </table>
-
-            <!--Title-->
-            <h5 class="title mb-4 font-weight-bold">Addresses:</h5>
-
-            <!--First row-->
-            <div class="row">
-
-              <!--First column-->
-              <div class="col-md-6">
-
-                <p>125 Street<br> New York, NY 10012</p>
-
-              </div>
-              <!--/First column-->
-
-              <!--Second column-->
-              <div class="col-md-5">
-
-                <p>Allen Street 5<br> New York, NY 10012</p>
-
-              </div>
-              <!--/Second column-->
-
-            </div>
-            <!--/First row-->
-
-          </div>
-          <!--Footer-->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-rounded btn-info waves-effect" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-        <!--/Content-->
-      </div>
-    </div>
-    <!--/Modal Info-->
-
   </header>
-  <!--/Navigation & Intro-->
+
 
   <!--Main content-->
   <main>
+    
 
-    <div class="container">
+    <!--ABOUT US-->
+    <div class="container">  
+      <section id="features" class="mt-4 mb-5 pb-5 about-container">
+        <h1 class="text-center mb-5 mt-5 pt-5 font-weight-bold dark-grey-text wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">ABOUT US-</h1>
+        <h2 class="text-center mb-5 mt-5 pt-5 font-weight-bold dark-grey-text wow fadeIn" data-wow-delay="0.2s"> LESS TALK - MORE EAT</h2>
 
-      <!--Section: Features v.1-->
-      <section id="features" class="mt-4 mb-5 pb-5">
-
-        <!--Section heading-->
-        <h1 class="text-center mb-5 mt-5 pt-5 font-weight-bold dark-grey-text wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Professional
-          treatments</h1>
         <!--Section sescription-->
         <p class="text-center grey-text w-responsive mx-auto mb-5 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum
-          dolores reiciendis
-          ad voluptas, animi obcaecati adipisci sapiente mollitia? Autem delectus quod accusamus tempora, aperiam
-          minima assumenda deleniti hic.</p>
-
-        <!--First row-->
-        <div class="row features-big my-4 text-center">
-          <!--First column-->
-          <div class="col-md-4 mb-4 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
-            <div class="card hoverable">
-              <i class="fas fa-heart blue-text mt-3 fa-3x my-4"></i>
-              <h5 class="font-weight-bold mb-4" "="">Experience</h5>
-                            <p class=" grey-text
-                font-small mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
-                aperiam
-                minima assumenda deleniti hic.</p>
-            </div>
-          </div>
-          <!--/First column-->
-
-          <!--Second column-->
-          <div class="col-md-4 mb-4 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
-            <div class="card hoverable">
-              <i class="far fa-eye blue-text mt-3 fa-3x my-4"></i>
-              <h5 class="font-weight-bold mb-4">Protection</h5>
-              <p class="grey-text font-small mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Reprehenderit maiores nam, aperiam
-                minima assumenda deleniti hic.</p>
-            </div>
-          </div>
-          <!--/Second column-->
-
-          <!--Third column-->
-          <div class="col-md-4 mb-1 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
-            <div class="card hoverable">
-              <i class="fas fa-briefcase-medical blue-text mt-3 fa-3x my-4"></i>
-              <h5 class="font-weight-bold mb-4" "="">Qualifications</h5>
-                            <p class=" grey-text
-                font-small mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
-                aperiam
-                minima assumenda deleniti hic.</p>
-            </div>
-          </div>
-          <!--/Third column-->
-        </div>
-        <!--/First row-->
-
+          Fundado en el 2005, Kanu se especializa en la fusion de comida Japonesa - Peruana. Contamos con un restaurant en Palermo en el cual podran deleitarse con nuestros tiraditos, rolls y ceviches entre otros platos. O podran disfrutar de nuestro servicio de sushi delivery en la comodidad de su hogar.</p>
       </section>
-      <!--/Section: Features v.1-->
     </div>
 
-    <div id="home" class="container-fluid">
+
+    <!--PRODUCTOS-->
+   <div class="container-fluid grey lighten-3">
+      <div class="container">
+        <section id="pricing" class="pb-5 pt-3">
+          <h1 class="text-center mb-5 h1 pt-5 mt-5">PRODUCTOS</h1>
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-lg-12 col-md-12 text-center">
+              <!--Button-->
+            <a href="#contacto" class="btn btn-rounded btn-grey mb-4 waves-effect waves-light">HACÉ TU PEDIDO</a>
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+        </section>
+      </div>
+   </div>
+
+
+    <!--EVENTOS-->
+   <div class="streak streak-photo streak-long-2" style="background-image: url('./Material Design Bootstrap_files/local.jpg')">
+      <div class="flex-center mask rgba-black-strong">
+        <div class="container text-center white-text">
+          <h3 class="text-left text-white text-uppercase font-weight-bold mt-5 mb-5 pt-3 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">EVENTOS & CATERING</h3>
+
+          <!--First row-->
+          <div class="row text-white text-center wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
+
+            <!--First column-->
+            <div class="col-md-4 mt-2">
+              <p>Fundado en el 2005, Kanú se especializa en la fusion de comida Japonesa – Peruana. Contamos con un restaurant en Palermo en el cual podran deleitarse con nuestros tiraditos, rolls y ceviches entre otros platos.</p>
+            </div>
+            <!--/First column-->
+
+          </div>
+          <!--/First row-->
+
+        </div>
+      </div>
+   </div>
+
+
+    <!--FRANQUICIAS-->
+   <div class="container-fluid grey lighten-3">
+      <div class="container">
+        <section id="pricing" class="pb-5 pt-3">
+
+          <!--Section heading-->
+          <h1 class="text-center mb-5 h1 pt-5 mt-5">FRANQUICIAS</h1>
+
+          <!--Section description-->
+          <p class="text-center w-responsive mx-auto my-5 grey-text">Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Fugit, error amet numquam iure provident voluptate
+            esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-lg-12 col-md-12 text-center">
+              <!--Button-->
+            <a href="#contacto" class="btn btn-rounded btn-black mb-4 waves-effect waves-light">ESCRIBINOS POR...</a>
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+        </section>
+      </div>
+   </div>
+
+
+    <div id="home" class="container">
 
       <!--Grid row-->
       <div class="row my-5">
@@ -347,11 +324,11 @@
 
       </div>
       <!--/Grid row-->
-
     </div>
 
-    <div class="container">
 
+
+    <div class="container">
       <!--Section: About-->
       <section id="about" class="info-section mb-5 mt-5 pt-4">
 
@@ -394,74 +371,100 @@
 
         </div>
         <!--/First row-->
-
       </section>
       <!--Section: About-->
-
     </div>
 
-    <!--EVENTOS-->
-    <div class="streak streak-photo streak-long-2" style="background-image: url('./Material Design Bootstrap_files/local.jpg')">
-      <div class="flex-center mask rgba-black-strong">
-        <div class="container text-center white-text">
-          <h3 class="text-left text-white text-uppercase font-weight-bold mt-5 mb-5 pt-3 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">EVENTOS & CATERING</h3>
 
-          <!--First row-->
-          <div class="row text-white text-center wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
 
-            <!--First column-->
-            <div class="col-md-4 mt-2">
-              <p>Fundado en el 2005, Kanú se especializa en la fusion de comida Japonesa – Peruana. Contamos con un restaurant en Palermo en el cual podran deleitarse con nuestros tiraditos, rolls y ceviches entre otros platos.</p>
-            </div>
-            <!--/First column-->
 
-          </div>
-          <!--/First row-->
 
-        </div>
-      </div>
-    </div>
-    <!--/EVENTOS-->
-
-   <div class="container-fluid grey lighten-3">
+       <div class="container-fluid grey lighten-3">
       <div class="container">
 
         <!--Section: Pricing v.1-->
         <section id="pricing" class="pb-5 pt-3">
 
-          <!--Section heading-->
-          <h1 class="text-center mb-5 h1 pt-5 mt-5">FRANQUICIAS</h1>
+        <h1 class="text-center mb-5 mt-5 pt-4 font-weight-bold dark-grey-text wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">SUCURSALES - </h1>
 
-          <!--Section description-->
-          <p class="text-center w-responsive mx-auto my-5 grey-text">Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Fugit, error amet numquam iure provident voluptate
-            esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+        <div class="wrapper-carousel-fix">
 
-          <!--Grid row-->
-          <div class="row">
+          <!--Carousel Wrapper-->
+          <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade wow fadeIn pointer-event" data-wow-delay="0.4s" data-ride="carousel" data-interval="false" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
 
-            <!--Grid column-->
-            <div class="col-lg-12 col-md-12 text-center">
-              <!--Button-->
-            <a href="#contacto" class="btn btn-rounded btn-blue mb-4 waves-effect waves-light">ESCRIBINOS POR...</a>
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+              <!--First slide-->
+              <div class="carousel-item active">
 
+                <div class="testimonial text-center">
+                  <!--Content-->
+                  <h4>VILLA URQUIZA</h4>
+                  <p>Delivery & take away - Angel Pacheco 2130
+                  Pedidos al tel 4522 7364
+                  </p>
+                </div>
+
+              </div>
+              <!--/First slide-->
+
+              <!--Second slide-->
+              <div class="carousel-item">
+
+                <div class="testimonial text-center">
+                  <!--Content-->
+                  <h4>PALERMO</h4>
+                  <p>Delivery & take away - Angel Pacheco 2130
+                  Pedidos al tel 4522 7364
+                  </p>
+                </div>
+
+              </div>
+              <!--/Second slide-->
+
+              <!--Third slide-->
+              <div class="carousel-item">
+
+                <div class="testimonial text-center">
+                  <!--Content-->
+                  <h4>CABALLITO</h4>
+                  <p>Delivery & take away - Angel Pacheco 2130
+                  Pedidos al tel 4522 7364
+                  </p>
+                </div>
+
+              </div>
+              <!--/Third slide-->
+
+              <!--Fourd slide-->
+              <div class="carousel-item">
+
+                <div class="testimonial text-center">
+                  <!--Content-->
+                  <h4>RAMOS MEJIA</h4>
+                  <p>Delivery & take away - Angel Pacheco 2130
+                  Pedidos al tel 4522 7364
+                  </p>
+                </div>
+
+              </div>
+              <!--/Fourd slide-->
             </div>
-            <!--Grid column-->
+            <!--/Slides-->
 
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-            </div>
-            <!--Grid column-->
-
+            <!--Controls-->
+            <a class="carousel-control-prev left carousel-control" href="#carousel-example-1" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next right carousel-control" href="#carousel-example-1" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
           </div>
-          <!--Grid row-->
+          <!--/Carousel Wrapper-->
+        </div>
 
         </section>
         <!--Section: Pricing v.1-->
@@ -610,92 +613,6 @@
       <!-- Section: Contact v.3 -->
 
       <hr>
-
-
-      <section id="testimonials" class="mb-5 pb-4">
-
-        <!--Section heading-->
-        <h1 class="text-center mb-5 mt-5 pt-4 font-weight-bold dark-grey-text wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">SUCURSALES - </h1>
-
-        <div class="wrapper-carousel-fix">
-
-          <!--Carousel Wrapper-->
-          <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade wow fadeIn pointer-event" data-wow-delay="0.4s" data-ride="carousel" data-interval="false" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
-
-            <!--Slides-->
-            <div class="carousel-inner" role="listbox">
-              <!--First slide-->
-              <div class="carousel-item active">
-
-                <div class="testimonial text-center">
-                  <!--Content-->
-                  <h4>VILLA URQUIZA</h4>
-                  <p>Delivery & take away - Angel Pacheco 2130
-                  Pedidos al tel 4522 7364
-                  </p>
-                </div>
-
-              </div>
-              <!--/First slide-->
-
-              <!--Second slide-->
-              <div class="carousel-item">
-
-                <div class="testimonial text-center">
-                  <!--Content-->
-                  <h4>PALERMO</h4>
-                  <p>Delivery & take away - Angel Pacheco 2130
-                  Pedidos al tel 4522 7364
-                  </p>
-                </div>
-
-              </div>
-              <!--/Second slide-->
-
-              <!--Third slide-->
-              <div class="carousel-item">
-
-                <div class="testimonial text-center">
-                  <!--Content-->
-                  <h4>CABALLITO</h4>
-                  <p>Delivery & take away - Angel Pacheco 2130
-                  Pedidos al tel 4522 7364
-                  </p>
-                </div>
-
-              </div>
-              <!--/Third slide-->
-
-              <!--Fourd slide-->
-              <div class="carousel-item">
-
-                <div class="testimonial text-center">
-                  <!--Content-->
-                  <h4>RAMOS MEJIA</h4>
-                  <p>Delivery & take away - Angel Pacheco 2130
-                  Pedidos al tel 4522 7364
-                  </p>
-                </div>
-
-              </div>
-              <!--/Fourd slide-->
-            </div>
-            <!--/Slides-->
-
-            <!--Controls-->
-            <a class="carousel-control-prev left carousel-control" href="#carousel-example-1" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next right carousel-control" href="#carousel-example-1" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-            <!--/.Controls-->
-          </div>
-          <!--/Carousel Wrapper-->
-        </div>
-      </section>
 
     </div>
 
